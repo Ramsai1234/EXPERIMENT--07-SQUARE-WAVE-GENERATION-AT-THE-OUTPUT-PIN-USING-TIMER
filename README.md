@@ -97,8 +97,8 @@ Step14. click on debug and simulate using simulation as shown below
 
 ## STM 32 CUBE PROGRAM :
 ```
-Program Developed by :G.Lutheesh
-Reg No : 212221230029
+Program Developed by :P.Ramsai
+Reg No : 212221240041
 ```
 ```
 /* USER CODE BEGIN Header */
@@ -373,18 +373,22 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
-![](ex1.png)
-![](ex3.png)
-![](ex2.png)
-![](ex4.png)
+![ex1](https://github.com/Ramsai1234/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/94269989/2f204e65-d9ae-43d3-9e8d-a35de325dfd0)
+![ex3](https://github.com/Ramsai1234/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/94269989/173bbe4a-0cb5-4545-a5d4-48e39982a341)
+
+
+![ex2](https://github.com/Ramsai1234/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/94269989/82dd7207-afda-4540-a3b1-eb07b8347e8b)
+![ex4](https://github.com/Ramsai1234/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/94269989/875d48ea-868e-48d1-8080-d8cc544d58a1)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
-![](ex.png)
+![ex](https://github.com/Ramsai1234/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/94269989/a61fb0ad-2f37-4d74-913d-3e0710b83080)
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ## FOR PULSE AT 500
-
+```
 Total Time period =4.1ms
 TON = 2ms
 TOFF= 2ms
@@ -392,8 +396,9 @@ TOTAL TIME = 4
 FREQUENCY = 1/(TOTAL TIME)
 = 1/(410^-3)
 = 250Hz
-
+```
 ## FOR PULSE AT 700
+```
 Total Time period = 3.11ms
 TON =  2.17ms
 TOFF= 0.93ms
@@ -402,9 +407,10 @@ FREQUENCY = 1/(TOTAL TIME)
 = 1/(3.110^-3)
 = 322.58Hz
 
-
+```
 
 ## FOR PULSE AT 900
+```
 Total Time period = 3.21ms
 TON = 2.88ms
 TOFF= 0.32ms
@@ -413,7 +419,7 @@ FREQUENCY = 1/(TOTAL TIME)
 = 1/(3.210^-30
 = 312.5Hz
 
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
